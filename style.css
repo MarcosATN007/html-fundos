@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+:root{
+   --fonte01: arial, verdana, sans-serif;
+   --fonte02:'Passion One', sans-serif;
+   --fonte03: 'Sriracha', sans-serif;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html ,body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte01);
+    font-size: 3vh;
+}
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant:  small-caps;
+    font-family: var(--fonte02);
+    font-size: 10vh;
+    
+}
+header > p {
+    padding-bottom: 50px;
+}
+header a, footer a{ 
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+ header a:hover{
+    text-decoration: underline;
+}
+section{
+    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    
+}
+section > p{
+    font-variant:initial;
+    font-family: var(--fonte02);
+    padding: 20px;
+    font-family: var(--fonte03);
+}
+
+
+section.normal{
+    background-color: white;
+}
+section.imagem{
+    background-color: grey;
+    color: white;
+
+}
+section.imagem > p {
+    width: 400px;
+    background-color: transparent;
+    color: white;
+}
+
+section#joaninha{
+    background-image: url(imagens/background001.jpg);
+    background-size:  100% 100%;
+    background-attachment: fixed;
+
+}
+
+section#livro{
+    background-image: url(imagens/background002.jpg);
+    background-size:  100% 100%;
+    background-attachment: fixed;
+}
+section#livro > p{
+    color: black;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
