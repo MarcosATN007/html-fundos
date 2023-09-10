@@ -44,8 +44,8 @@ header a, footer a{
 }
 section{
     background-color: white;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 11vh;
+    padding-bottom: 11vh;
     line-height: 2em;
     
 }
@@ -54,6 +54,7 @@ section > p{
     font-family: var(--fonte02);
     padding: 20px;
     font-family: var(--fonte03);
+
 }
 
 
@@ -63,25 +64,24 @@ section.normal{
 section.imagem{
     background-color: grey;
     color: white;
+    box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.575);
+    background-size:  100% 100%;
+    background-attachment: fixed;
 
 }
 section.imagem > p {
     width: 400px;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.445);
+    text-shadow:rgba(1, 1, 1, 0.144);
     color: white;
 }
 
 section#joaninha{
     background-image: url(imagens/background001.jpg);
-    background-size:  100% 100%;
-    background-attachment: fixed;
-
 }
 
 section#livro{
     background-image: url(imagens/background002.jpg);
-    background-size:  100% 100%;
-    background-attachment: fixed;
 }
 section#livro > p{
     color: black;
